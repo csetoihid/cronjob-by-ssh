@@ -1,0 +1,12 @@
+Connect ssh : 
+write this command and press enter
+ssh remote_username@remote_host  
+Give your password:
+Create crontab: write this command $   crontab -e. Then add job $ 30 2 * * * wget -O - -q -t 1 http://bdhoney.com/yourScript.php   . Then press "ctrl + x" finally press y and enter.
+Rules for set time :
+ MIN     Minute field    0 to 59
+HOUR    Hour field      0 to 23
+DOM     Day of Month    1-31
+MON     Month field     1-12
+DOW     Day Of Week     0-6
+CMD     Command     Any command to be executed.
